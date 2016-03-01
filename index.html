@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Fantastic Movie Seach</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src='https://code.jquery.com/jquery-2.2.1.min.js'></script>
+  <scrip rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'></scrip>
+  <script src='main.js'></script>
+
+</head>
+<body>
+  <h1 class='pageTitle'>The Fantastic Movie Seach</h1>
+  <div class="row movieInputRow"></div>
+    <input type="text" placeholder='Search for a movie/series' id="movieInput">
+    <input type="text" placeholder='Release year' id="yearInput">
+    <select id='typeInput' style="width: 100px;">
+      <option value="movie">Movie</option>
+      <option value="series">Series</option>
+    </select>
+    <button id='movieSubmit'>Search</button>
+  </div>
+  <br>
+  <br>
+  <div id='movieContainer'>
+    <div id='movieTemplate'>
+      <div class="movieTitle"></div>
+      <div class="moviePoster"><img class="moviePoster"></div>
+      <div class="runtime"></div>
+      <div class="year"></div>
+      <div><a href="" class="imdbLink"></a></div>
+    </div>
+  </div>
+</body>
+</html>

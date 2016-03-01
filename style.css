@@ -1,0 +1,31 @@
+body {
+  background: url('http://i.stack.imgur.com/p9mUO.jpg');
+}
+
+.pageTitle {
+  color: #cccccc;
+}
+#movieContainer {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  min-height: 200px;
+  min-width: 200px;
+  background: #333333;
+  color: #cccccc;
+}
+
+#movieInput {
+  min-width: 150px;
+}
+.moviePoster {
+  max-width: 275px;
+  max-height: 375px;
+  display: inline;
+  float: left;
+}
+.imdbLink {
+  color: #aaa;
+}
